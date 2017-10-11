@@ -1,10 +1,14 @@
 import React, { Component } from 'react';
-import { AppRegistry } from 'react-native'
+import { AppRegistry, View } from 'react-native'
 
 import Header from './components/header'
+import AlbumList from './components/AlbumList'
 
 export default App = () => (
+    <View>
       <Header headerText={'Albums'}/>
+      <AlbumList />
+    </View>
 )
 
 
