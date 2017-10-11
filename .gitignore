@@ -36,6 +36,12 @@ node_modules/
 npm-debug.log
 yarn-error.log
 
+#android and ios stuff!
+android
+ios
+yarn.lock
+
+
 # BUCK
 buck-out/
 \.buckd/
